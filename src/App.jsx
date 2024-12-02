@@ -1,10 +1,10 @@
 import { useState } from "react";
-import SearchBar from "./components/SearchBar";
-import ProfileCard from "./components/ProfileCard";
-import RepoList from "./components/RepoList";
-import ErrorMessage from "./components/ErrorMessage";
-import LoadingSpinner from "./components/LoadingSpinner";
-import { getUserData, getUserRepos } from "./utils/GithubAPI";
+import SearchBar from "./components/SearchBar.jsx";
+import ProfileCard from "./components/ProfileCard.jsx";
+import RepoList from "./components/RepoList.jsx";
+import ErrorMessage from "./components/ErrorMessage.jsx";
+import LoadingSpinner from "./components/LoadingSpinner.jsx";
+import { getUserData, getUserRepos } from "./GithubAPI.jsx";
 
 const App = () => {
   const [user, setUser] = useState(null);
