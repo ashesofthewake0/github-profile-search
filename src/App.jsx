@@ -4,7 +4,7 @@ import ProfileCard from "./components/ProfileCard";
 import RepoList from "./components/RepoList";
 import ErrorMessage from "./components/ErrorMessage";
 import LoadingSpinner from "./components/LoadingSpinner";
-import { getUserData, getUserRepos } from "./githubAPI";
+import { getUserData, getUserRepos } from "./utils/GithubAPI";
 
 const App = () => {
   const [user, setUser] = useState(null);
